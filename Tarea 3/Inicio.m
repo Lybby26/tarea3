@@ -22,6 +22,39 @@
     _lblCirculo.clipsToBounds = YES;
 }
 
+- (IBAction)getRedColor:(id)sender {
+    self.lblRed.text = [NSString stringWithFormat:@"%f", self.sliderRed.value];
+     [self sliderValueChanged:_sliderRed];}
+
+
+- (IBAction)getGreenColor:(id)sender {
+    self.lblGreen.text = [NSString stringWithFormat:@"%f", self.sliderGreen.value];
+     [self sliderValueChanged:_sliderGreen];}
+
+
+- (IBAction)getBlueColor:(id)sender {
+    self.lblBlue.text = [NSString stringWithFormat:@"%f", self.sliderBlue.value];
+
+    [self sliderValueChanged:_sliderBlue];
+}
+
+//Cambiar color
+-(void)sliderValueChanged:(UISlider*)slider
+{
+    NSLog(@"%f", _sliderRed.value);
+    NSLog(@"%f", _sliderGreen.value);
+    NSLog(@"%f", _sliderBlue.value);
+    
+    float r=[[NSString stringWithFormat:@"%.0f",_sliderRed.value] floatValue];
+    float g=[[NSString stringWithFormat:@"%.0f",_sliderGreen.value]floatValue];
+    float b=[[NSString stringWithFormat:@"%.0f",_sliderBlue.value]floatValue];
+    
+    UIColor *colorToSet=[UIColor colorWithRed:(r/255.0f) green:(g/255.0f) blue:(b/255.0f) alpha:1];
+    
+    NSLog(@"%@", colorToSet);
+    [_lblCirculo setBackgroundColor:colorToSet];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

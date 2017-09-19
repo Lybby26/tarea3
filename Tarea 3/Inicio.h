@@ -10,6 +10,16 @@
 
 @interface Inicio : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *lblCirculo;
+@property (strong, nonatomic) IBOutlet UISlider *sliderRed;
+@property (strong, nonatomic) IBOutlet UISlider *sliderGreen;
+@property (strong, nonatomic) IBOutlet UISlider *sliderBlue;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblRed;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblGreen;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblBlue;
+
 
 
 @end
