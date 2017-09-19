@@ -6,17 +6,20 @@
 //  Copyright © 2017 lybby26. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Inicio.h"
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController ()
+@interface Inicio ()
 
 @end
 
-@implementation ViewController
+@implementation Inicio
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //Convertir etiqueta en circulo
+    _lblCirculo.layer.cornerRadius = 30;
+    _lblCirculo.clipsToBounds = YES;
 }
 
 

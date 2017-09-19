@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Inicio : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *lblCirculo;
 
 
 @end

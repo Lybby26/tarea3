@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9A37D8311F70B522002A101A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A37D8301F70B522002A101A /* main.m */; };
 		9A37D8341F70B522002A101A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A37D8331F70B522002A101A /* AppDelegate.m */; };
-		9A37D8371F70B522002A101A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A37D8361F70B522002A101A /* ViewController.m */; };
+		9A37D8371F70B522002A101A /* Inicio.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A37D8361F70B522002A101A /* Inicio.m */; };
 		9A37D83A1F70B522002A101A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A37D8381F70B522002A101A /* Main.storyboard */; };
 		9A37D83D1F70B522002A101A /* Tarea_3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A37D83B1F70B522002A101A /* Tarea_3.xcdatamodeld */; };
 		9A37D83F1F70B522002A101A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A37D83E1F70B522002A101A /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		9A37D8301F70B522002A101A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A37D8321F70B522002A101A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A37D8331F70B522002A101A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A37D8351F70B522002A101A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9A37D8361F70B522002A101A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A37D8351F70B522002A101A /* Inicio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Inicio.h; sourceTree = "<group>"; };
+		9A37D8361F70B522002A101A /* Inicio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Inicio.m; sourceTree = "<group>"; };
 		9A37D8391F70B522002A101A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A37D83C1F70B522002A101A /* Tarea_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tarea_3.xcdatamodel; sourceTree = "<group>"; };
 		9A37D83E1F70B522002A101A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		9A37D82E1F70B522002A101A /* Tarea 3 */ = {
 			isa = PBXGroup;
 			children = (
-				9A37D8321F70B522002A101A /* AppDelegate.h */,
-				9A37D8331F70B522002A101A /* AppDelegate.m */,
-				9A37D8351F70B522002A101A /* ViewController.h */,
-				9A37D8361F70B522002A101A /* ViewController.m */,
+				9A37D8491F70B52D002A101A /* Main */,
+				9A37D84A1F70B534002A101A /* Controllers */,
 				9A37D8381F70B522002A101A /* Main.storyboard */,
 				9A37D83E1F70B522002A101A /* Assets.xcassets */,
 				9A37D8401F70B522002A101A /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				9A37D8301F70B522002A101A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A37D8491F70B52D002A101A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9A37D8321F70B522002A101A /* AppDelegate.h */,
+				9A37D8331F70B522002A101A /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		9A37D84A1F70B534002A101A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A37D8351F70B522002A101A /* Inicio.h */,
+				9A37D8361F70B522002A101A /* Inicio.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A37D8371F70B522002A101A /* ViewController.m in Sources */,
+				9A37D8371F70B522002A101A /* Inicio.m in Sources */,
 				9A37D8341F70B522002A101A /* AppDelegate.m in Sources */,
 				9A37D8311F70B522002A101A /* main.m in Sources */,
 				9A37D83D1F70B522002A101A /* Tarea_3.xcdatamodeld in Sources */,
