@@ -56,6 +56,22 @@
 }
 
 
+- (IBAction)showHideCircle:(id)sender {
+   
+      if(_switchOffOn.on){
+        
+        self.lblCirculo.hidden = NO;
+        
+        }else{
+            
+        self.lblCirculo.hidden = YES;
+        }
+    }
+
+
+
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

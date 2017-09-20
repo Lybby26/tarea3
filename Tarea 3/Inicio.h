@@ -20,6 +20,7 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *lblBlue;
 
+@property (strong, nonatomic) IBOutlet UISwitch *switchOffOn;
 
 
 @end
