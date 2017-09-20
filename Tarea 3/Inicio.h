@@ -22,6 +22,7 @@
 
 @property (strong, nonatomic) IBOutlet UISwitch *switchOffOn;
 
+@property (strong, nonatomic) IBOutlet UIButton *btnRandom;
 
 @end
 

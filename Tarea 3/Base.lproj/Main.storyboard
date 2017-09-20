@@ -74,10 +74,23 @@
                                     <action selector="showHideCircle:" destination="BYZ-38-t0r" eventType="valueChanged" id="92a-Ck-N1Z"/>
                                 </connections>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6o0-52-Gy5">
+                                <rect key="frame" x="93" y="267" width="166" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90440946817398071" green="0.56083172559738159" blue="0.91806674003601074" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <state key="normal" title="Voy a tener suerte!">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="getARandomColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ajR-HD-PG6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="btnRandom" destination="6o0-52-Gy5" id="OpE-DN-FDB"/>
                         <outlet property="lblBlue" destination="Meo-FY-q2i" id="wdv-cY-M80"/>
                         <outlet property="lblCirculo" destination="JQn-me-rXa" id="PXB-tq-uHZ"/>
                         <outlet property="lblGreen" destination="4Ss-G6-m8m" id="dKJ-Da-AlM"/>
